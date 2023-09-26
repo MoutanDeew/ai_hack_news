@@ -1,3 +1,5 @@
+Ссылка на хакатон https://codenrock.com/contests/ai-news#/info
+
 python = 3.9
 
 для gitlab-ci.yml:
