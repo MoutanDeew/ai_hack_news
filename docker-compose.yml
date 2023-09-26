@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  # elastic
+  app:
+      build:
+        context: .
+      env_file:
+        - .env
+      container_name: fastapi_app
+      command: ["/fastapi_app/docker/app.sh"]
+      ports:
+        - 8000:8000
+      # depends_on:
+      #   - elastic

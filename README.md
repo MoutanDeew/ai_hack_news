@@ -1,2 +1,8 @@
-# ai_hack_news
-Hackathon NLP project. Development of a service for removing duplicates and classifying news. 
+python = 3.9
+
+для gitlab-ci.yml:
+
+docker compose build
+docker compose up
+
+Мы не успели доработать приём и парсинг из csv.
